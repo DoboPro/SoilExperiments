@@ -2878,7 +2878,7 @@ CCC	1000	1000	1000
 //list[][サンプル][]{
 @<b>{//tsize[latex][|l|r|l|c|]}
 /@<nop>$$/table[tbl-sample2][右寄せ(r)、左寄せ(l)、中央揃え(c)]{
-Name	Val	Val	Val
+Name  Val	Val	Val
 --------------------------------
 AAA	10	10	10
 BBB	100	100	100
@@ -2998,7 +2998,7 @@ CCC	1000	1000	1000
 /@<nop>$$/table[tbl-sample5][空行が横の罫線になる][@<b>|hline=off|]{
 Name	Val	Val	Val
 ================================
-AAA	10	10	10
+AAA	10  10	10
 BBB	100	100	100
 
 CCC	1000	1000	1000
