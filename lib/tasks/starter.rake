@@ -289,8 +289,9 @@ namespace :web do
 
   invoke_web_task = proc do
     #sh "rake web"
-    Process.fork { Rake::Task['web'].invoke() }
+    Process.fork {Rake::Task['web'].invoke()}
     Process.wait()
+    # Rake::Task['web'].reenable
   end
 
   helper_message_when_start_server = <<END

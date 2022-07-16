@@ -1,7 +1,7 @@
 = カスタマイズ
 
 //abstract{
-Starterをカスタマイズする方法を紹介します。
+Serをカスタマイズする方法を紹介します。
 //}
 
 #@#//makechaptitlepage[toc=on]
