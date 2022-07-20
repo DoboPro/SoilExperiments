@@ -33,8 +33,14 @@ subtitle: |-
 # 著者名。「, 」で区切って複数指定できる
 # 読みを入れる例 aut: [{name: "青木峰郎", file-as: "アオキミネロウ"}, {name: "武藤健志", file-as: "ムトウケンシ"}, {name: "高橋征義", file-as: "タカハシマサヨシ"}, {name: "角征典", file-as: "カドマサノリ"}]
 aut:
-  - name: 含水比計測中
-    file-as: ガンスイヒチュウ
+  [
+    { name: "江城静順", file-as: "エシロシズカ" },
+    { name: "土田虎ノ助", file-as: "ツチダトラノスケ" },
+    { name: "水谷昂太郎", file-as: "ミズタニコウタロウ" },
+    { name: "山本眞輝", file-as: "ヤマモトマサキ" },
+    { name: "山本亨輔", file-as: "ヤマモトキョウスケ" },
+  ]
+ill: [{ name: "尾藤大喜", file-as: "ビトウダイキ" }]
 
 # (Starter拡張) 奥付に載せるデータ。現在はPDFのみ対応。
 additional:
@@ -42,14 +48,14 @@ additional:
   # 詳しくはこのページを参照：
   # https://esa-pages.io/p/sharing/13039/posts/115/7fbe936149a836eac678.html#奥付の記載
   - key: 発行者 # サークル名ではなく個人名（ペンネーム可）
-    value:
+    value: 江城静順
   - key: 連絡先 # メールアドレス推奨
     value:
-    ### 連絡先の例：
-    #value:
-    #  - xxxxx@example.com          # メールアドレス
-    #  - https://www.example.com/   # WebサイトURL
-    #  - "@xxxxx"                   # Twitterアカウント（先頭に '@' をつけること）
+      ### 連絡先の例：
+      # value:
+      - dobopro1106@gmail.com # メールアドレス
+      - https://dobopro.github.io/DoboPro # WebサイトURL
+      - "@DoboPro" # Twitterアカウント（先頭に '@' をつけること）
 
 # 以下はオプション
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
@@ -96,11 +102,11 @@ date: 2022-08-13
 # 日付の後ろを空白文字で区切り、任意の文字列を置くことも可能。
 history:
   - # 初版
-    - 2022-08-13 ver 1.0 （c100）
+    - 2022-08-13 （コミックマーケット100）
 # [experimental] 新刊を頒布したイベント名（例：「技術書典6（2019年春）新刊」）
 pubevent_name: コミックマーケット100
 # 権利表記(配列で複数指定可)
-rights: (C) 2022 土質実験中
+rights: (C) 2022 含水比計測中
 # description: 説明
 # subject: 短い説明用タグ(配列で複数指定可)
 # type: 書籍のカテゴリーなど(配列で複数指定可)

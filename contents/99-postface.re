@@ -1,4 +1,52 @@
-= あとがき
+= おわりに
+
+===[notoc] 著者紹介
+//noindent
+//sideimage[eshiro][4zw][side=L,sep=6mm]{
+//noindent
+@<B>{江城静順}(@Eshirosh)
+//noindent
+家に親が来るときは、ベントナイトを隠しておきましょう。
+あと「みずかがみ」みんな食べてね！！(https://x.gd/QjdG7)
+//}
+//blankline
+//noindent
+//sideimage[tsuchida][4zw][side=L,sep=6mm]{
+//noindent
+@<B>{土田虎ノ助}(@splitting_test)
+//noindent
+みんな恋アス見てよ！
+//}
+//blankline
+//noindent
+//sideimage[mizutani][4zw][side=L,sep=6mm]{
+//noindent
+@<B>{水谷昂太郎}(@mizuDoboku)
+//noindent
+あっつあつのおんせんはいりたい。
+//}
+//blankline
+//noindent
+//sideimage[yamamoto_m][4zw][side=L,sep=6mm]{
+//noindent
+@<B>{山本眞輝}(@Shearstrength20)
+//noindent
+京大には猛者がおってだなぁ。
+//}
+//blankline
+//noindent
+//sideimage[yamamoto_k][4zw][side=L,sep=6mm]{
+//noindent
+@<B>{山本亨輔}(@yamamoto_k_1983)
+//noindent
+出会い系アプリの使い方を教えてほしい今日この頃。
+//}
+
+===[notoc] 謝辞
+本書制作では、京都大学大学院工学研究科修士１年鎌森元吾氏と
+本書印刷等のために寄付していただいたみなさまに御礼申し上げます。
+
+===[notoc] あとがき
 //talklist{
 //talk[eshiro]{
 『自宅実験と素朴な疑問で学ぶ土質力学』みたいな本を出したら売れるだろうか．

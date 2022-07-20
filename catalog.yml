@@ -13,6 +13,8 @@ CHAPS:
   # - 01-install.re
   - 001-drytomato.re
   - 002-mud_dumpling.re
+  - 003-boiling.re
+  # - 004-liquefaction.re 
   - 005-permeability.re
   # - 02-tutorial.re
   # - 03-syntax.re
