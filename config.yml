@@ -37,7 +37,7 @@ aut:
     { name: "江城静順", file-as: "エシロシズカ" },
     { name: "土田虎ノ助", file-as: "ツチダトラノスケ" },
     { name: "水谷昂太郎", file-as: "ミズタニコウタロウ" },
-    { name: "山本眞輝", file-as: "ヤマモトマサキ" },
+    { name: "山本眞暉", file-as: "ヤマモトマサキ" },
     { name: "山本亨輔", file-as: "ヤマモトキョウスケ" },
   ]
 ill: [{ name: "尾藤大喜", file-as: "ビトウダイキ" }]
@@ -86,7 +86,7 @@ additional:
 # a-pht, pht: 撮影責任者
 # a-pbl, pbl: 出版社（発行所）
 # a-prt, prt: 印刷所
-prt: ○○印刷所
+prt: プリントパック
 # a-red, red: 項目の枠組起草者
 # a-rev, rev: 評論者
 # a-spn, spn: 援助者
@@ -373,7 +373,7 @@ pdfmaker:
   # image_scale2width: true
   #
   # 索引
-  makeindex: true #なら本の巻末に索引をつける
+  makeindex: false #なら本の巻末に索引をつける
   # 索引作成コマンドの設定
   makeindex_command: upmendex # 索引を生成するコマンド（デフォルト値：mendex）
   makeindex_options: "-q -g" # 索引見出しを「あ か さ た な は …」にする
