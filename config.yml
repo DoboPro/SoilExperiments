@@ -40,7 +40,7 @@ aut:
     { name: "山本眞暉", file-as: "ヤマモトマサキ" },
     { name: "山本亨輔", file-as: "ヤマモトキョウスケ" },
   ]
-ill: [{ name: "尾藤大喜", file-as: "ビトウダイキ" }]
+ill: [{ name: "尾藤大喜（https://www.instagram.com/design_kanji/）", file-as: "ビトウダイキ" }]
 
 # (Starter拡張) 奥付に載せるデータ。現在はPDFのみ対応。
 additional:

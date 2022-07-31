@@ -20,8 +20,8 @@ starter:
 
   ## 上下左右の塗り足し幅（印刷用PDFのみ）
   ## （参考：https://www.eikou.com/making/basis#nuritashi ）
-  bleedsize:           # 通常は指定しなくてよい
-  #bleedsize: 3mm      # 背景色を使うなら、上下左右に3mmの塗り足しが必要
+  # bleedsize:           # 通常は指定しなくてよい
+  bleedsize: 3mm      # 背景色を使うなら、上下左右に3mmの塗り足しが必要
   bleedcolor:          # 通常は無指定、確認時のみ使用（red/blue/green/yellow/gray）
 
   ## フォントサイズ
@@ -47,10 +47,10 @@ starter:
   ##   取り込むページ番号を `cover.pdf<2>` のように指定すること（実験的機能）。
   ## ・ファイル名の後ろに `*` をつけると、上下左右の塗り足し部分が除かれる。
   ## ・必要なら配列を使って複数ファイルを指定可能（例： [a.pdf, b.pdf]）。
-  frontcover_pdffile: cover_a5.pdf   # 表表紙（電子用のみ、印刷用にはつかない）
+  frontcover_pdffile: DoboPro_Omote_Re.pdf   # 表表紙（電子用のみ、印刷用にはつかない）
   #frontcover_pdffile: cover.pdf<2>* # （ページ番号を指定し、塗り足しを除く場合）
-  backcover_pdffile:  null           # 裏表紙（電子用のみ、印刷用にはつかない）
-  titlepage_pdffile:  null           # 大扉（印刷用・電子用どちらにもつく）
+  backcover_pdffile:  DoboPro_Ura_Re.pdf           # 裏表紙（電子用のみ、印刷用にはつかない）
+  titlepage_pdffile:  DoboPro_Omote_Re_mono.pdf*           # 大扉（印刷用・電子用どちらにもつく）
   colophon_pdffile:   null           # 奥付（印刷用・電子用どちらにもつく）
   includepdf_option:  null           # PDFの位置調整が必要な場合
   #includepdf_option:  "offset=-2.3mm 2.3mm"  # 位置調整の指定例
@@ -61,7 +61,7 @@ starter:
   nombre_sidemargin:    0.5mm        # ページ左右からのマージン幅
   nombre_bottommargin:  2.0mm        # ページ下からのマージン高
   nombre_fontcolor:     gray         # 'gray' or 'black'
-  nombre_fontsize:      6pt          # フォントサイズ（6〜8pt）
+  nombre_fontsize:      4pt          # フォントサイズ（6〜8pt）
   nombre_startnumber:   1            # ノンブルの開始番号（3から始める流儀もある）
 
   ## 部 (Part) の開始番号（上・下巻に分割する場合に必要）
