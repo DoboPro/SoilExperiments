@@ -47,10 +47,10 @@ starter:
   ##   取り込むページ番号を `cover.pdf<2>` のように指定すること（実験的機能）。
   ## ・ファイル名の後ろに `*` をつけると、上下左右の塗り足し部分が除かれる。
   ## ・必要なら配列を使って複数ファイルを指定可能（例： [a.pdf, b.pdf]）。
-  frontcover_pdffile: DoboPro_Omote_Re.pdf   # 表表紙（電子用のみ、印刷用にはつかない）
+  frontcover_pdffile: 01.pdf   # 表表紙（電子用のみ、印刷用にはつかない）
   #frontcover_pdffile: cover.pdf<2>* # （ページ番号を指定し、塗り足しを除く場合）
-  backcover_pdffile:  DoboPro_Ura_Re.pdf           # 裏表紙（電子用のみ、印刷用にはつかない）
-  titlepage_pdffile:  DoboPro_Omote_Re_mono.pdf*           # 大扉（印刷用・電子用どちらにもつく）
+  backcover_pdffile:  03.pdf*       # 裏表紙（電子用のみ、印刷用にはつかない）
+  titlepage_pdffile:  04.pdf           # 大扉（印刷用・電子用どちらにもつく）
   colophon_pdffile:   null           # 奥付（印刷用・電子用どちらにもつく）
   includepdf_option:  null           # PDFの位置調整が必要な場合
   #includepdf_option:  "offset=-2.3mm 2.3mm"  # 位置調整の指定例
